@@ -1,7 +1,35 @@
+body {
+  -webkit-animation: askew 15s infinite;
+  -moz-animation: askew 15s infinite;
+  -o-animation: askew 15s infinite;
+  animation: askew 15s infinite;
+}
+
+@-webkit-keyframes askew {
+  0%   { transform: rotate(0deg); }
+  30% { transform: rotate(1deg); }
+  100% { transform: rotate(0deg); }
+}
+@-moz-keyframes askew {
+  0%   { transform: rotate(0deg); }
+  30% { transform: rotate(1deg); }
+  100% { transform: rotate(0deg); }
+}
+@-o-keyframes askew {
+  0%   { transform: rotate(0deg); }
+  30% { transform: rotate(1deg); }
+  100% { transform: rotate(0deg); }
+}
+@keyframes askew {
+  0%   { transform: rotate(0deg); }
+  30% { transform: rotate(1deg); }
+  100% { transform: rotate(0deg); }
+}
+
 .baws {
-    position: fixed;
-    bottom: 0;
-    right: 10%;
+  position: fixed;
+  bottom: 0;
+  right: 10%;
 }
 
 .flying-al {
