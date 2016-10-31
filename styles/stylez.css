@@ -10,6 +10,12 @@ body {
   font-family: 'Verdana' sans-serif;
 }
 
+.ben h1 {
+  font-size: 128px;
+  line-height: 128px;
+  color: yellow;
+}
+
 .baws {
     position: fixed;
     bottom: 0;
