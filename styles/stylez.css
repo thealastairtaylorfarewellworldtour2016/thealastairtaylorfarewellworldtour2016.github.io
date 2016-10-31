@@ -2,6 +2,10 @@ html, body {
   font-family: 'Comic Sans MS', cursive;
 }
 
+body {
+  background: url('../images/cowboy.gif') repeat !important;
+}
+
 #smo {
   font-family: 'Verdana' sans-serif;
 }
