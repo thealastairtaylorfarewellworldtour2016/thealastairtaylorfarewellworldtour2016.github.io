@@ -1,3 +1,11 @@
+html, body {
+  font-family: 'Comic Sans MS', cursive;
+}
+
+#smo {
+  font-family: 'Verdana' sans-serif;
+}
+
 .baws {
     position: fixed;
     bottom: 0;
