@@ -53,6 +53,12 @@ html, body {
     border-radius: 100%;
 }
 
+.ben h1 {
+  font-size: 128px;
+  line-height: 128px;
+  color: yellow;
+}
+
 @-webkit-keyframes moveX {
     from {
         left: 0;
