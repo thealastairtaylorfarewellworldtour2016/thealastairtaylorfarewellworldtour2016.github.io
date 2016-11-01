@@ -3,6 +3,7 @@ body {
   -moz-animation: askew 15s infinite;
   -o-animation: askew 15s infinite;
   animation: askew 15s infinite;
+  background: url('../images/cowboy.gif') repeat !important;
 }
 
 @-webkit-keyframes askew {
