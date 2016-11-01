@@ -49,6 +49,9 @@
     <div class="BYebYEAliluvCRAIg">
         <span>ByE bYE Aliiii. We'll MiSS U. LUV CRAIG!!! P.S. We'LL LuK aFtR SAM 4U.<br>ooXxXoo</span>
     </div>
+
+  <img id="imaage" src="images/hilly-balls.gif" />
+
     <header class="ch-header" role="banner">
         <div class="ch-container"> <a href="/" class="ch-brand">Alaar alor</a> </div>
     </header>
@@ -120,7 +123,7 @@
               <h1 color="red">Ben woz 'ere 2k16</h1>
               <img src="images/ben.png" width="100%"/>
             </div>
-            
+
             <hr/>
         <img src="images/pinkcorn.gif" />
             <hr/>
@@ -147,7 +150,7 @@
 
         <!-- Start of SimpleHitCounter Code -->
         <div align="center"><img src="http://simplehitcounter.com/hit.php?uid=2185809&f=16777215&b=0" border="0" height="18" width="83"></div>
-        <!-- End of SimpleHitCounter Code -->        
+        <!-- End of SimpleHitCounter Code -->
 </body>
 <script type="text/javascript">
     /* Circling text trail- Tim Tilton
@@ -268,4 +271,34 @@
         };
     })();
 </script>
+
+<script>
+  function animoo() {
+    $("#imaage").fadeIn("fast");
+    $("#imaage").fadeOut("fast");
+  }
+
+  $(document).ready(function() {
+    $("#imaage").css("width",
+                     $(window).width() / 2);
+
+    $("#imaage").css("height",
+                     $(window).height() / 2);
+
+    $("#imaage").css("position", "fixed");
+
+    // to the left, to the left
+    $("#imaage").css("left",
+                     $(window).width() / 2 - 50);
+
+    // to the top, to the top
+    $("#imaage").css("top",
+                     $(window).height() / 2 - 50);
+
+    $("#imaage").hide();
+
+    setInterval(animoo, 3000);
+  });
+</script>
+
 </html>
