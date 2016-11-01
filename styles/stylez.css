@@ -241,9 +241,56 @@ body,html {
 
 
 
+    .BYebYEAliluvCRAIg {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100%;
 
+      z-index: 9999999999999999999;
+      color: white;
+      font-size: 10vw;
+      line-height: 1;
+      font-weight: bolder;
+      text-align: center;
+      text-shadow: -0.06em 0 red,  0.06em 0 cyan;
+      animation: infinite colorchange 0.02s;
+      -webkit-animation: infinite colorchange 0.2s;
+    }
 
+html, body {
+    margin: 0!important;
+    min-height: 100%!important;
+}
 
+body {
+    position: relative!important;
+}
+
+    @keyframes colorchange
+    {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+
+      0%   {color: white;}
+      0%   {color: black;}
+    }
+
+    @-webkit-keyframes colorchange
+    {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+    }
 
 
 

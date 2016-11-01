@@ -104,3 +104,7 @@
     }//orbit plugin call
 })(jQuery);
 
+        $(document).ready(function() {
+        	$(".BYebYEAliluvCRAIg").hide().delay(9000).fadeIn('fast');
+
+    });
