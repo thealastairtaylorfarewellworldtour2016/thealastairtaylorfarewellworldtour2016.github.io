@@ -140,7 +140,32 @@ body,html {
 }
 
 
+.speech-bubble {
+  position: absolute;
+  background: #ff00dc;
+  border-radius: .4em;
+  top: 55px;
+  left: 15px;
+  padding: 20px;
+  font-family: 'Courier', sans-serif;
+  text-align: center;
+  color: #fff;
+}
 
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-left-color: #ff00dc;
+	border-right: 0;
+	border-top: 0;
+	margin-top: -10px;
+	margin-right: -20px;
+}
 
 
 
