@@ -55,6 +55,54 @@ html, body {
     border-radius: 100%;
 }
 
+.flying-all {
+    width: 145px;
+    height: 145px;
+    display: block;
+    position: absolute;
+    -webkit-animation: moveX 10s linear 0s infinite alternate, moveY 15.3s linear 0s infinite alternate;
+    -moz-animation: moveX 10s linear 0s infinite alternate, moveY 15.3s linear 0s infinite alternate;
+    -o-animation: moveX 10s linear 0s infinite alternate, moveY 15.3s linear 0s infinite alternate;
+    animation: moveX 10s linear 0s infinite alternate, moveY 15.3s linear 0s infinite alternate;
+    border-radius: 100%;
+}
+
+.flying-alll {
+    width: 256px;
+    height: 256px;
+    display: block;
+    position: absolute;
+    -webkit-animation: moveX 30s linear 0s infinite alternate, moveY 25.3s linear 0s infinite alternate;
+    -moz-animation: moveX 30s linear 0s infinite alternate, moveY 25.3s linear 0s infinite alternate;
+    -o-animation: moveX 30s linear 0s infinite alternate, moveY 25.3s linear 0s infinite alternate;
+    animation: moveX 30s linear 0s infinite alternate, moveY 25.3s linear 0s infinite alternate;
+    border-radius: 100%;
+}
+
+.flying-allll {
+    width: 230px;
+    height: 230px;
+    display: block;
+    position: absolute;
+    -webkit-animation: moveX 20s linear 0s infinite alternate, moveY 15.3s linear 0s infinite alternate;
+    -moz-animation: moveX 20s linear 0s infinite alternate, moveY 15.3s linear 0s infinite alternate;
+    -o-animation: moveX 20s linear 0s infinite alternate, moveY 15.3s linear 0s infinite alternate;
+    animation: moveX 20s linear 0s infinite alternate, moveY 15.3s linear 0s infinite alternate;
+    border-radius: 100%;
+}
+
+.flying-alllli {
+    width: 57px;
+    height: 57px;
+    display: block;
+    position: absolute;
+    -webkit-animation: moveX 2s linear 0s infinite alternate, moveY 5.3s linear 0s infinite alternate;
+    -moz-animation: moveX 2s linear 0s infinite alternate, moveY 5.3s linear 0s infinite alternate;
+    -o-animation: moveX 2s linear 0s infinite alternate, moveY 5.3s linear 0s infinite alternate;
+    animation: moveX 2s linear 0s infinite alternate, moveY 5.3s linear 0s infinite alternate;
+    border-radius: 100%;
+}
+
 .ben h1 {
   font-size: 128px;
   line-height: 128px;
