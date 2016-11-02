@@ -304,6 +304,16 @@
 </script>
 
 <script>
+  function dootch() {
+    new Audio("sounds/dootch.mp3").play();
+  }
+
+  $(document).ready(function() {
+    setTimeout(dootch, 3000);
+  });
+</script>
+
+<script>
   function pump() {
     $("#logo").css("position", "fixed");
 
