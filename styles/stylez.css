@@ -56,14 +56,14 @@ html, body {
 }
 
 .flying-all {
-    width: 145px;
-    height: 145px;
+    width: 800px;
+    height: 800px;
     display: block;
     position: absolute;
-    -webkit-animation: moveX 10s linear 0s infinite alternate, moveY 15.3s linear 0s infinite alternate;
-    -moz-animation: moveX 10s linear 0s infinite alternate, moveY 15.3s linear 0s infinite alternate;
-    -o-animation: moveX 10s linear 0s infinite alternate, moveY 15.3s linear 0s infinite alternate;
-    animation: moveX 10s linear 0s infinite alternate, moveY 15.3s linear 0s infinite alternate;
+    -webkit-animation: moveX 60s linear 0s infinite alternate, moveY 50.3s linear 0s infinite alternate;
+    -moz-animation: moveX 60s linear 0s infinite alternate, moveY 50.3s linear 0s infinite alternate;
+    -o-animation: moveX 60s linear 0s infinite alternate, moveY 50.3s linear 0s infinite alternate;
+    animation: moveX 60s linear 0s infinite alternate, moveY 50.3s linear 0s infinite alternate;
     border-radius: 100%;
 }
 
@@ -72,10 +72,10 @@ html, body {
     height: 256px;
     display: block;
     position: absolute;
-    -webkit-animation: moveX 30s linear 0s infinite alternate, moveY 25.3s linear 0s infinite alternate;
-    -moz-animation: moveX 30s linear 0s infinite alternate, moveY 25.3s linear 0s infinite alternate;
-    -o-animation: moveX 30s linear 0s infinite alternate, moveY 25.3s linear 0s infinite alternate;
-    animation: moveX 30s linear 0s infinite alternate, moveY 25.3s linear 0s infinite alternate;
+    -webkit-animation: moveX 10s linear 0s infinite alternate, moveY 20.3s linear 0s infinite alternate;
+    -moz-animation: moveX 10s linear 0s infinite alternate, moveY 20.3s linear 0s infinite alternate;
+    -o-animation: moveX 10s linear 0s infinite alternate, moveY 20.3s linear 0s infinite alternate;
+    animation: moveX 10s linear 0s infinite alternate, moveY 20.3s linear 0s infinite alternate;
     border-radius: 100%;
 }
 
