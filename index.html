@@ -50,7 +50,9 @@
         <span>ByE bYE Aliiii. We'll MiSS U. LUV CRAIG!!! P.S. We'LL LuK aFtR SAM 4U.<br>ooXxXoo</span>
     </div>
 
-  <img id="imaage" src="images/hilly-balls.gif" />
+  <img style="position:fixed;left:0;top:0;" id="imaage" src="images/hilly-balls.gif" />
+
+  <img style="position:fixed;left:0;top:0;" id="logo" src="images/logo.png" />
 
     <header class="ch-header" role="banner">
         <div class="ch-container"> <a href="/" class="ch-brand">Alaar alor</a> </div>
@@ -298,6 +300,24 @@
     $("#imaage").hide();
 
     setInterval(animoo, 3000);
+  });
+</script>
+
+<script>
+  function pump() {
+    $("#logo").css("position", "fixed");
+
+    // to the left, to the left
+    $("#logo").css("left",
+                   Math.round(Math.random() * $(window).width()));
+
+    // to the top, to the top
+    $("#logo").css("top",
+                   Math.round(Math.random() * $(window).height()));
+  }
+
+  $(document).ready(function() {
+    setInterval(pump, 1000);
   });
 </script>
 
