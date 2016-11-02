@@ -48,10 +48,10 @@ html, body {
     height: 145px;
     display: block;
     position: absolute;
-    -webkit-animation: moveX 5s linear 0s infinite alternate, moveY 6.3s linear 0s infinite alternate;
-    -moz-animation: moveX 5s linear 0s infinite alternate, moveY 6.3s linear 0s infinite alternate;
-    -o-animation: moveX 5s linear 0s infinite alternate, moveY 6.3s linear 0s infinite alternate;
-    animation: moveX 5s linear 0s infinite alternate, moveY 6.3s linear 0s infinite alternate;
+    -webkit-animation: moveX 4s linear 0s infinite alternate, moveY 8s linear 0s infinite alternate;
+    -moz-animation: moveX 4s linear 0s infinite alternate, moveY 8s linear 0s infinite alternate;
+    -o-animation: moveX 4s linear 0s infinite alternate, moveY 8s linear 0s infinite alternate;
+    animation: moveX 4s linear 0s infinite alternate, moveY 8s linear 0s infinite alternate;
     border-radius: 100%;
 }
 
@@ -65,6 +65,7 @@ html, body {
     -o-animation: moveX 60s linear 0s infinite alternate, moveY 50.3s linear 0s infinite alternate;
     animation: moveX 60s linear 0s infinite alternate, moveY 50.3s linear 0s infinite alternate;
     border-radius: 100%;
+    z-index: 9999999999999999999;
 }
 
 .flying-alll {
@@ -72,11 +73,12 @@ html, body {
     height: 256px;
     display: block;
     position: absolute;
-    -webkit-animation: moveX 10s linear 0s infinite alternate, moveY 20.3s linear 0s infinite alternate;
-    -moz-animation: moveX 10s linear 0s infinite alternate, moveY 20.3s linear 0s infinite alternate;
-    -o-animation: moveX 10s linear 0s infinite alternate, moveY 20.3s linear 0s infinite alternate;
-    animation: moveX 10s linear 0s infinite alternate, moveY 20.3s linear 0s infinite alternate;
+    -webkit-animation: moveX 2s linear 0s infinite alternate, moveY 20.3s linear 0s infinite alternate;
+    -moz-animation: moveX 2s linear 0s infinite alternate, moveY 20.3s linear 0s infinite alternate;
+    -o-animation: moveX 2s linear 0s infinite alternate, moveY 20.3s linear 0s infinite alternate;
+    animation: moveX 2s linear 0s infinite alternate, moveY 20.3s linear 0s infinite alternate;
     border-radius: 100%;
+    z-index: 9999999999999999999;
 }
 
 .flying-allll {
@@ -89,6 +91,7 @@ html, body {
     -o-animation: moveX 20s linear 0s infinite alternate, moveY 15.3s linear 0s infinite alternate;
     animation: moveX 20s linear 0s infinite alternate, moveY 15.3s linear 0s infinite alternate;
     border-radius: 100%;
+    z-index: 9999999999999999999;
 }
 
 .flying-alllli {
@@ -101,6 +104,7 @@ html, body {
     -o-animation: moveX 2s linear 0s infinite alternate, moveY 5.3s linear 0s infinite alternate;
     animation: moveX 2s linear 0s infinite alternate, moveY 5.3s linear 0s infinite alternate;
     border-radius: 100%;
+    z-index: 9999999999999999999;
 }
 
 .ben h1 {
@@ -358,7 +362,7 @@ body,html {
     height: 100vh;
     width: 100%;
 
-      z-index: 9999999999999999999;
+      z-index: 999999999999999999;
       color: white;
       font-size: 10vw;
       line-height: 1;
